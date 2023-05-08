@@ -1,0 +1,2 @@
+google-cloud-datastore
+functions-framework==3.*

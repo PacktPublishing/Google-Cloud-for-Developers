@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "John Ronald Reuel Tolkien",
+      "type": "PERSON",
+      "metadata": {
+        "mid": "/m/041h0",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien"
+      },
+      "salience": 0.79542243,
+      "mentions": [
+        {
+          "text": {
+            "content": "John Ronald Reuel Tolkien",
+            "beginOffset": 0
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "writer",
+            "beginOffset": 41
+          },
+          "type": "COMMON"
+        },
+        {
+          "text": {
+            "content": "author",
+            "beginOffset": 76
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "The Lord of the Rings",
+      "type": "WORK_OF_ART",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "mid": "/m/07bz5"
+      },
+      "salience": 0.09017082,
+      "mentions": [
+        {
+          "text": {
+            "content": "The Lord of the Rings",
+            "beginOffset": 86
+          },
+          "type": "PROPER"
+        },
+        {
+          "text": {
+            "content": "fantasy book",
+            "beginOffset": 120
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "philologist",
+      "type": "PERSON",
+      "metadata": {},
+      "salience": 0.06080294,
+      "mentions": [
+        {
+          "text": {
+            "content": "philologist",
+            "beginOffset": 52
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "type": "LOCATION",
+      "metadata": {
+        "wikipedia_url": "https://en.wikipedia.org/wiki/English_language",
+        "mid": "/m/02h40lc"
+      },
+      "salience": 0.053603794,
+      "mentions": [
+        {
+          "text": {
+            "content": "English",
+            "beginOffset": 33
+          },
+          "type": "PROPER"
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,389 @@
+{
+  "response": {
+    "requestId": "424484396447623743", 
+    "@type": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeResponse", 
+    "totalBilledTime": "201s", 
+    "results": [
+      {
+        "resultEndTime": "5.260s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9475543, 
+            "transcript": "play Civ complete block of are followed by explosion"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "18.930s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.53358465, 
+            "transcript": " robe"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "23.570s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9244586, 
+            "transcript": " time"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "26.060s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.8902913, 
+            "transcript": " late"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "32.950s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9246612, 
+            "transcript": " feed"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "37.540s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.8097242, 
+            "transcript": " cash"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "40.600s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.60041565, 
+            "transcript": " talk"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "47.510s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9298061, 
+            "transcript": " flag"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "62.800s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9152389, 
+            "transcript": " fricative constant flow of air squeeze through a Blog sounds like friction"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "69.910s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9417477, 
+            "transcript": " nice"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "75.070s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.8591953, 
+            "transcript": " vest"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "77.210s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.52071685, 
+            "transcript": " Hayes"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "82.080s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.57891196, 
+            "transcript": " think"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "89.570s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.92070496, 
+            "transcript": " those"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "96.920s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.5695934, 
+            "transcript": " site"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "103.840s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.8928257, 
+            "transcript": " Zoo"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "106.190s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.7751233, 
+            "transcript": " nose"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "111.500s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.47424382, 
+            "transcript": " shut"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "113.730s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.9514755, 
+            "transcript": " crash"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "118.830s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.94843227, 
+            "transcript": " pleasure"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "123.530s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.8500145, 
+            "transcript": " hi"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "130.130s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.89181024, 
+            "transcript": " affricate flosef followed by fricative"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "134.890s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.92396045, 
+            "transcript": " chose"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "137.190s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.5968387, 
+            "transcript": " cats"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "142.010s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.73603725, 
+            "transcript": " Joy"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "144.510s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.93670106, 
+            "transcript": " stage"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "150.730s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.93837625, 
+            "transcript": " nasal is released through the nose"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "155.350s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.7841699, 
+            "transcript": " food"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "157.730s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.58072335, 
+            "transcript": " calm"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "162.640s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 1, 
+            "transcript": " now"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "169.750s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.93957, 
+            "transcript": " find"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "177.420s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.82486445, 
+            "transcript": " approximant vowel-like consonant no food lock of occurs"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "183.710s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.7983265, 
+            "transcript": " yeah"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "186.160s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.92691094, 
+            "transcript": " yellow"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "190.590s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.61645454, 
+            "transcript": " rune"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "195.470s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.53855103, 
+            "transcript": " low"
+          }
+        ]
+      }, 
+      {
+        "resultEndTime": "200.080s", 
+        "languageCode": "en-us", 
+        "alternatives": [
+          {
+            "confidence": 0.84985816, 
+            "transcript": " pill"
+          }
+        ]
+      }
+    ]
+  }, 
+  "done": true, 
+  "name": "424484396447623743", 
+  "metadata": {
+    "uri": "gs://test_345xxa/sample_audio.wav", 
+    "lastUpdateTime": "2023-01-07T07:32:42.657712Z", 
+    "@type": "type.googleapis.com/google.cloud.speech.v1.LongRunningRecognizeMetadata", 
+    "startTime": "2023-01-07T07:32:13.438329Z", 
+    "progressPercent": 100
+  }
+}
+Wrap Lines

@@ -1,0 +1,70 @@
+# Copyright 2023 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+main:
+  steps:
+    # Set default variables
+    - initialize:
+        assign:
+            - region: "us-east-1"
+            - project_id: "cloud-developers-365616"
+            - private_bucket_name: "sampleprivate384"
+            - public_bucket_name: "samplepublic134"
+            - city_list_path: "input/city_list.csv"
+            - html_path: "weather_by_city.html"		
+    # Read list of cities from a CSV in Cloud Storage using a Cloud Function
+    - readCityList:
+        call: http.post
+        args:
+            url: https://weatherinfo-readcitynames-4slsbxpeoa-ue.a.run.app
+            body:
+                bucket_name: ${private_bucket_name}
+                city_list_path: ${city_list_path}
+        result: city_list
+    # Get weather from each city and store it in Firestore using Cloud Functions
+    - iterateCities:
+        parallel:
+            for:
+                value: city_name
+                in: ${city_list.body}
+                steps:
+                    - getCityWeather:
+                        call: http.post
+                        args:
+                            url: https://weatherinfo-getcityweather-4slsbxpeoa-ue.a.run.app
+                            body:
+                                city_name: ${city_name}
+                                project_id: ${project_id}
+                        result: city_weather_details
+                    - storeCityWeather:
+                        call: http.post
+                        args:
+                            url: https://weatherinfo-storecityweather-4slsbxpeoa-ue.a.run.app
+                            body:
+                                city_name: ${city_name}
+                                city_weather_details: ${city_weather_details}
+                                project_id: ${project_id}
+    # Update the static page which shows the weather in all cities
+    - updateWeatherPage:
+        call: http.post
+        args:
+            url: https://weatherinfo-updateweatherpage-4slsbxpeoa-ue.a.run.app
+            body:
+                bucket_name: ${public_bucket_name}
+                html_path: ${html_path}
+                project_id: ${project_id}
+    # Return true if everything went well
+    - returnOK:
+        return: "Success"
+

@@ -1,0 +1,3 @@
+google-cloud-speech
+google-translate
+pandas

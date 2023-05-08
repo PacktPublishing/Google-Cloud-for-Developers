@@ -1,0 +1,29 @@
+{
+  "documentSentiment": {
+    "magnitude": 0.9,
+    "score": 0.4
+  },
+  "language": "en",
+  "sentences": [
+    {
+      "text": {
+        "content": "John Ronald Reuel Tolkien was an English writer and philologist.",
+        "beginOffset": 0
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "He was the author of The Lord of the Rings, an amazing fantasy book you will love to read.",
+        "beginOffset": 65
+      },
+      "sentiment": {
+        "magnitude": 0.9,
+        "score": 0.9
+      }
+    }
+  ]
+}

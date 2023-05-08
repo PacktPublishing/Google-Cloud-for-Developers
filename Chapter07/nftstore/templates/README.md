@@ -1,0 +1,1 @@
+Please copy files from /third_party/Chapter07/nftstore/templates/ to this directory
